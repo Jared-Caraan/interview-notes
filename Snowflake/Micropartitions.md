@@ -1,3 +1,5 @@
+# Micropartitions
+
 ### Definition
 
 **Micro-partitions** are the physical storage units in Snowflake. Every table is automatically divided into these small, contiguous units of storage, typically ranging from **50 MB to 500 MB** of uncompressed data.

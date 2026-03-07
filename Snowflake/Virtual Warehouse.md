@@ -1,3 +1,5 @@
+# Virtual Warehouse
+
 ### Definition
 
 A **Snowflake Virtual Warehouse** is a cluster of compute resources (CPU, memory, and temporary storage) used to execute SQL queries and perform DML operations.

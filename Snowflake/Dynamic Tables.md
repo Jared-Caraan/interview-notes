@@ -3,6 +3,7 @@
 ### Definition
 
 Snowflake **Dynamic Tables** are a declarative way to define the desired final state of a data pipeline using standard SQL, with Snowflake automatically managing the refresh and orchestration to keep the results up-to-date. They are a core building block for continuous data pipelines, simplifying the process of materializing query results without manual coding or scheduling.
+<hr>
 
 ### Difference with Streams and Tasks
 

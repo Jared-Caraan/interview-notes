@@ -1,3 +1,5 @@
+# Medallion Architecture
+
 ### Definition
 
 It’s a data design pattern used to organize data in a Lakehouse.

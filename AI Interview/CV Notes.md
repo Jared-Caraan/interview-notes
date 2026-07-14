@@ -20,4 +20,4 @@ _Focus areas: Snowflake optimization, dbt architecture, and pipeline cost-effici
   
   **Probable answer:**
   
-  I'm gonna give an example of a project. Let's call it the Issue Attribute Predictor. The situation is that given a situation in ServiceNOW we would want to categorize that incident. 
+  I'm gonna give an example of a project. Let's call it the Issue Attribute Predictor. The situation is that the model will take an issue description from the enterprise issue management database as input and predict the most appropriate root cause. The task is to improve the quality of issue attribute categorization. Using the orchestration of Control-M, it calls the scripts to load data from Snowflake to Storage Grid. Then it'll preprocess the raw data. It will then offload features data from SG to MFP. Then classify the root cause column and apply labels. Then it'll offload root cause scores data from Storage Grid to MFP. Environment specific-parameters are found in gitlab-ci.yml along with the scripts. About versioning, we create tags for QA and merge the code to master for PROD. The result is reduction of manual effort to correctly categorize these attributes. 
